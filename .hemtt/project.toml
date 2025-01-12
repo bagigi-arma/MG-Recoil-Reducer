@@ -1,0 +1,16 @@
+name = "MG Recoil Reducer Bagigi"
+author = "Bagigi Team"
+prefix = "mgrecoil"
+mainprefix = "x"
+
+[files]
+include = [
+	"mod.cpp",
+	"meta.cpp",
+	"README.md",
+	"LICENSE.md",
+]
+
+[version]
+git_hash = 0
+
