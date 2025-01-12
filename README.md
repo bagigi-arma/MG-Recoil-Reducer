@@ -1,8 +1,10 @@
-# MG Recoil Reducer - Bagigi Edition
+# Bagigi's MG Recoil Reducer
 
-This is a mod for Arma 3, made with the goal of reducing recoil of machine guns that are rested on a bipod, to make them more accurate for engagements beyond 300m.
+This is a mod for Arma 3 made by the [Bagigi Arma 3 Community](https://units.arma3.com/unit/bagigi), with the purpose of reducing the recoil of Machine Guns when they are fired while rested on the ground or on a bipod, to make them more accurate during engagements beyond 300m.
 
-It was made by the [Bagigi Arma 3 Community](https://units.arma3.com/unit/bagigi) and is available [on the Steam Workshop](https://steamcommunity.com/sharedfiles/filedetails/?id=3065316263).
+It is available [on the Steam Workshop](https://steamcommunity.com/sharedfiles/filedetails/?id=3065316263).
+
+## Support
 
 You can build this mod with the [HEMTT build tool](https://hemtt.dev/index.html).
 
