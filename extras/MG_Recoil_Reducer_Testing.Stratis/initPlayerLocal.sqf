@@ -14,7 +14,7 @@ _action = ["tracingOff", "Bullet Tracing Off", "", {
 
 // Interactions to switch between multiple MGs
 fnc_switchMG = {
-	params ["", "_weapon", "_magazines", ["_scope", "rhsusf_acc_ELCAN"]];
+	params ["", "_weapon", "_magazines", ["_scope", "optic_Hamr"]];
 
 	player removeMagazines ((primaryWeaponMagazine player) select 0);
 	player removeWeapon (primaryWeapon player);
@@ -40,7 +40,7 @@ _action = ["switchMGCUP", "CUP MGs", "", {}, {true}] call ace_interact_menu_fnc_
 private _baseActionCUP = [player, 1, _baseAction, _action] call ace_interact_menu_fnc_addActionToObject;
 
 {
-	_x params ["_baseAction", "_weapon", "_magazines", ["_scope", "rhsusf_acc_ELCAN"]];
+	_x params ["_baseAction", "_weapon", "_magazines", ["_scope", "optic_Hamr"]];
 
 	_action = [
 		format ["switchMG_%1", _weapon],
